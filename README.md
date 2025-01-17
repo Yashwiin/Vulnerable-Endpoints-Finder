@@ -29,6 +29,11 @@ This repository contains a Python tool for filtering potentially vulnerable endp
 
 Run the tool using the following command:
 
+Basic command
+```bash
+python3 EndpointSweeper.py endpoints.txt 10 output_vulnerable_endpoints.txt
+```
+Advance command
 ```bash
 python3 EndpointSweeper.py <input_file> <threads> <output_file> [--keywords <keyword1> <keyword2> ...]
 ```
