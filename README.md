@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/63dfc393-ec3a-449e-9c4a-c51948a5ee27)
+
 # Vulnerable Endpoints Filter Tool
 
 This repository contains a Python tool for filtering potentially vulnerable endpoints from a text file. It identifies URLs or paths containing specific keywords that may indicate vulnerability, such as `login`, `admin`, or `debug`. The tool is simple, extensible, and designed to be a starting point for enhancing endpoint security analysis.
