@@ -59,7 +59,7 @@ if __name__ == "__main__":
         "--keywords", 
         type=str, 
         nargs='+', 
-        default=["login", "admin", "test", "debug", "config", "query", "?", "http://", "mailto:", "/test", "/debug", "env"],
+        default=["login", "admin", "test", "debug", "config", "query", "?", "http://", "mailto:", "/test", "/debug", "env", ".env"],
         help="List of keywords to identify vulnerable endpoints (default keywords are provided)."
     )
 
